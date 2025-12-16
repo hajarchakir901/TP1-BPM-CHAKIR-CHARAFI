@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="admin">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Membre">
+      <displayName>Membre</displayName>
+    </role>
+    <role name="Client">
+      <displayName>Client</displayName>
+    </role>
+    <role name="Vendeur">
+      <displayName>Vendeur</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Groupe1">
+      <displayName>Groupe1</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>admin</userName>
+      <roleName>Membre</roleName>
+      <groupName>Groupe1</groupName>
+    </membership>
+    <membership>
+      <userName>admin</userName>
+      <roleName>Client</roleName>
+      <groupName>Groupe1</groupName>
+    </membership>
+    <membership>
+      <userName>admin</userName>
+      <roleName>Vendeur</roleName>
+      <groupName>Groupe1</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
